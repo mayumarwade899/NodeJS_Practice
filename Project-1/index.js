@@ -37,6 +37,7 @@ app
 
 app.post("/api/users", (req, res) => {
   //TODO: Create new user
+  const body = req.body;
   return res.join({ status: "pending" });
 });
 
